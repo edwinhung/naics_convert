@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+VERSION = '0.0.2' 
 DESCRIPTION = 'Naics code translate'
 LONG_DESCRIPTION = 'A small library that convert naics codes to names of sectors and industries'
 
@@ -14,7 +14,7 @@ setup(
         long_description=LONG_DESCRIPTION,
         packages=find_packages(),
         install_requires=['numpy','pandas'], 
-        url="https://github.com/edwinhung/naics_convert"
+        url="https://github.com/edwinhung/naics_convert",
         project_urls={
             "naics_convert":"https://github.com/edwinhung/naics_convert/issues"
         },
